@@ -29,5 +29,17 @@ Designed for easy deployment locally or on cloud platforms (e.g. Colab, Heroku).
 
 ## 🗂️ Project Structure
 
-Here’s how the repository is organized:
+User-Auth-System/
+├── main.py                 # Entry point of the application
+├── config.py               # App & database configuration (secret keys, JWT setup)
+├── models.py               # SQLite ORM models (User, Role, Permission)
+├── auth.py                 # Authentication & authorization logic (JWT handling)
+├── routes.py               # API route definitions
+├── utils.py                # Helper functions (validators, decorators)
+├── requirements.txt        # Dependencies
+├── tests/                  # Unit tests
+│   └── test_auth.py
+├── docs/                   # Documentation (ERD, setup guide, etc.)
+│   └── ERD.png
+└── README.md
 
